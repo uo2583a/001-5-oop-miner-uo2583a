@@ -12,3 +12,4 @@ class Cow(Mob):
             if self.rect.top <= 0 or self.rect.bottom >= self.window_height:
                 self.speed_y *= -1
             self.rect.bottom = 0
+

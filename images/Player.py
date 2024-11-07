@@ -40,3 +40,4 @@ class Player():
 
     def draw(self):
         self.window.blit(self.image, self.rect)
+

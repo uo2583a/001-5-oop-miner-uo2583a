@@ -17,3 +17,4 @@ class Creeper(Mob):
             self.speed_x = random.choice([-1, 1])
         if self.rect.top <= 0 or self.rect.bottom >= self.window_height:
             self.speed_y = random.choice([-1, 1])
+

@@ -53,7 +53,6 @@ while running:
     # Update player position
     player.update()
 
-    # Update mobs and check collisions only if collision detection is active
     for mob in mobs:
         mob.update()
         if collision_active and player.check_collide(mob):
@@ -80,6 +79,6 @@ while running:
         mob.draw()
 
     pygame.display.flip()
-    clock.tick(30)  # 30 FPS
+    clock.tick(30)
 
 pygame.quit()

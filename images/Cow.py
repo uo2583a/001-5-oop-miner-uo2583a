@@ -5,7 +5,7 @@ from Mob import Mob
 class Cow(Mob):
     def __init__(self, window, windowWidth, windowHeight):
         super().__init__(window, windowWidth, windowHeight, "cow.jpg")
-        self.speed_y = 2  # Cow moves vertically only
+        self.speed_y = 2
 
         def update(self):
             self.rect.y += self.speed_y
